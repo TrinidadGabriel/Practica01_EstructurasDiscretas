@@ -1,4 +1,7 @@
-Ejercicios
+---Ejercicios---
+--INTEGRANTES DE EQUIPO:
+---Trinidad Camacho Gabriel
+---Vazquez Serralta Alan
 
 ----1. Distancia entre dos puntos en el plano cartesiano:----
   distanciaPuntos :: (Float, Float) -> (Float, Float) -> Float
