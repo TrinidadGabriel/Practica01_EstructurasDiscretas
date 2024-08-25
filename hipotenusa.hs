@@ -1,4 +1,4 @@
----Hipotenusa de un triángulo rectángulo---
+--Hipotenusa de un triángulo rectángulo--
 
-raiz :: Float->Float->Float
-raiz h b = sqrt ((b*b)+(h*h))
+hipotenusa_trngl :: Float->Float->Float
+hipotenusa_trngl h b = sqrt ((b*b)+(h*h))
