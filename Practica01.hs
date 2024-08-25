@@ -16,9 +16,7 @@ pendiente :: (Float, Float) -> (Float, Float) -> Float
 pendiente (x1, y1) (x2, y2) = (y2 - y1) / (x2 - x1)
 
 ---- 4. Raíces de una ecuación cuadrática: ----
-type Tupla = (Float, Float)
-
-raices :: Float -> Float -> Float -> Tupla
+raices :: Float -> Float -> Float -> (Float, Float)
 raices a b c =
     let discriminante = (b * b) - 4 * a * c
     in if discriminante >= 0
